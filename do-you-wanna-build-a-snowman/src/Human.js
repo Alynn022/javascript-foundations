@@ -15,8 +15,9 @@ class Human {
       this.materials[material] += itemNum;
     //bracket notation to pass in keys that are changing.
   }
-    buildASnowman(Snowman) {
-      console.log(this.materials.coal)
+    buildASnowman(snowman) {
+      return this.materials
+
     }
   }
 
