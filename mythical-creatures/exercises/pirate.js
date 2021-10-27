@@ -1,7 +1,7 @@
 class Pirate {
-  constructor(name, job = 'scallywag') {
+  constructor(name, job) {
     this.name = name
-    this.job = job
+    this.job = job || 'scallywag'
     this.cursed = false
     this.booty = 0
   }

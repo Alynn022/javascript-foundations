@@ -1,5 +1,7 @@
 var assert = require('chai').assert;
 var Pirate = require('../exercises/pirate');
+var Person = require('./person');
+var Statue = require('./statue');
 
 describe('Pirate', function() {
 
