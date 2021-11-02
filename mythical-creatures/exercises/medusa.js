@@ -2,7 +2,7 @@ var Person = require('../exercises/person');
 var Statue = require('../exercises/statue');
 
 class Medusa {
-  constructor(medusa) {
+    constructor(medusa) {
     this.name = medusa
     this.statues = []
   }
@@ -16,9 +16,11 @@ class Medusa {
     return freedPerson
     } else {
       var newStatue = new Statue(victim.name)
-        return this.statues.push(newStatue)
+       return this.statues.push(newStatue)
     }
   }
 }
+
+          module.exports = Medusa;
 
 module.exports = Medusa;
