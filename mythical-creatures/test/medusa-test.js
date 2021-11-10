@@ -5,17 +5,17 @@ var Statue = require('../exercises/statue');
 
 describe('Medusa', function() {
 
-  it('should be a function', function() {
+  it.skip('should be a function', function() {
     assert.isFunction(Medusa);
   });
 
-  it('should instantiate our good friend, Medusa', function() {
+  it.skip('should instantiate our good friend, Medusa', function() {
     var medusa = new Medusa();
 
     assert.instanceOf(medusa, Medusa);
   });
 
-  it('should have a name', function() {
+  it.skip('should have a name', function() {
 
     var medusa1 = new Medusa('Lynn')
     // instantiate a Medusa object with your name as an argument
